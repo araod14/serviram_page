@@ -1,0 +1,81 @@
+/* Estilos para la sección de presentación */
+#presentacion {
+    padding: 50px 0;
+  }
+  #presentacion h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  #presentacion p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  #presentacion a {
+    font-size: 1.2rem;
+  }
+  /* Estilos para el carrusel de presentación */
+#presentacion-carousel {
+    height: 500px;
+    margin-bottom: 50px;
+  }
+  #presentacion-carousel .carousel-item {
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+  }
+
+  #presentacion .carousel-inner img {
+    max-height: 70vh;
+    object-fit: cover;
+
+  }
+  
+  #presentacion .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+  }
+  
+  /* Estilos para la sección de servicios */
+  #servicios {
+    padding: 50px 0;
+  }
+  #servicios h2 {
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+  }
+  #servicios .card {
+    margin-bottom: 30px;
+  }
+  #servicios .card-title {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  #servicios .card-text {
+    font-size: 1.2rem;
+  }
+
+  
+  
+  /* Estilos para la sección de proyectos realizados */
+  #proyectos {
+    padding: 50px 0;
+  }
+  #proyectos h2 {
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+  }
+  #proyectos .card {
+    margin-bottom: 30px;
+  }
+  #proyectos .card-title {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  #proyectos .card-text {
+    font-size: 1.2rem;
+  }
